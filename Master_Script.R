@@ -7,7 +7,6 @@ if(require("pacman")=="FALSE"){
     library('pacman')
     pacman::p_load(here,stringr,readxl,plyr,caret,dplyr,doParallel,lubridate,crayon) # <- add libraries here
   }
-cat(red("Hello world!"))
 
 ######### Loading Scripts...
 ##load a function that enables pararell processing with several cores
