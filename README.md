@@ -1,13 +1,16 @@
-#Functional Programming
+# Functional Programming
 
 ##
+
+## Summary
 The idea with this exercise was to create a "MasterScript" that calls several functions used in the pre-process, training and evaluation phase of a data analytics project.
 
 In addition, each model and output are saved for each run with a timestamp making it easier to retrieve the latest created file for any directory.
 ##
 
+##
 
-List of Scripts:
+## List of Scripts:
 
 Master_Script.R  -> main file, that calls the other scripts and executes the whole analysis.
 
@@ -24,3 +27,5 @@ Training_Function -> Function that creates a data partition of the Train set, th
 Load_Latest_Model -> Function that loads the last model (specified by type) within the Model folder.
 
 apply_model_function -> Function that applies a specific model and generates a timestamped .CSV file in the Data\Output folder with the results.
+
+##
