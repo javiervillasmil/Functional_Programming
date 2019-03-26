@@ -1,4 +1,4 @@
-Functional Programming
+#Functional Programming
 
 ##
 The idea with this exercise was to create a "MasterScript" that calls several functions used in the pre-process, training and evaluation phase of a data analytics project.
